@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Bat</td>
+            <td><input type="number" id="bat-qt" value="0"></td>
+            <td value="1000" id="unit-price">1000</td>
+            <td value="" id="price1">0</td>
+        </tr>
+        <tr>
+            <td>Ball</td>
+            <td><input type="number" id="ball-qt"></td>
+            <td value="100" id="unit-price">100</td>
+            <td value="" id="price2">0</td>
+        </tr>
+        <tr>
+            <td>Stumpset</td>
+            <td><input type="number" id="stump-qt"></td>
+            <td value="500" id="unit-price">500</td>
+            <td value="" id="price3">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="total">Total</td>
+
+            <td id="total-value">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="">Tax 18%</td>
+            <td id="tax-value">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="">Grand total</td>
+            <td id="grand-value">0</td>
+        </tr>
+
+    </table>
+    <script src="./css/billing.js"></script>
+</body>
+
+</html>
