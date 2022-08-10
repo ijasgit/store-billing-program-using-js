@@ -6,18 +6,18 @@ var stump = document.getElementById("stump-qt")
 stump.value = 0;
 var batunitprice = document.getElementById("unit-price")
 batunitprice.value = 1000;
-// var unprice1 = batunitprice.value
+var unprice1 = batunitprice.value
 
 var ballunitprice = document.getElementById("unit-price")
-// ballunitprice.value = 100;
+ballunitprice.value = 100;
 var unprice2 = ballunitprice.value
 
-// var stumpunitprice = document.getElementById("unit-price")
-// stumpunitprice.value = 500;
-// var unprice3 = batunitprice.value
-// price1.value = 0;
-// price2.value = 0;
-// price3.value = 0;
+var stumpunitprice = document.getElementById("unit-price")
+stumpunitprice.value = 500;
+var unprice3 = batunitprice.value
+price1.value = 0;
+price2.value = 0;
+price3.value = 0;
 bat.addEventListener("click", battotal)
 function battotal() {
    price1.value = ((bat.value) * (unprice1))
